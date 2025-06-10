@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="11.1.0" />
+    <PackageReference Include="MediatR.Contracts" Version="2.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PSE.Application\PSE.Application.csproj" />
+    <ProjectReference Include="..\PSE.Domain\PSE.Domain.csproj" />
+    <ProjectReference Include="..\PSE.Infrastructure.CrossCutting\PSE.Infrastructure.CrossCutting.csproj" />
+    <ProjectReference Include="..\PSE.Infrastructure.Data\PSE.Infrastructure.Data.csproj" />
+  </ItemGroup>
+
+</Project>
