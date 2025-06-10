@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "Novo Perfil",
+    "Projects": [
+      {
+        "Path": "PSE.Client\\PSE.Client.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
